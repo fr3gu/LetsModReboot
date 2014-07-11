@@ -1,0 +1,21 @@
+[
+{
+	"modid": "LetsModReboot",
+	"name": "Let's Mod: Reboot",
+	"description": "Descr...",
+	"version": "1.0",
+	"mcversion": "1.7.10",
+	"url": "http://github.com/fr3gu/letsmodmodreboot",
+	"updateUrl": "",
+	"authorList": [
+		"Fr3gU"
+	],
+	"credits": "Fr3gU, thanks to Pahimar",
+	"logoFile" : "/mods/letsmodreboot/textures/logo/logo.png",
+	"screenshots" : [
+	],
+	"parent": "",
+	"dependencies": [
+	]
+}
+]
