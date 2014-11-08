@@ -1,6 +1,7 @@
 package com.fr3gu.letsmodreboot;
 
 import com.fr3gu.letsmodreboot.handler.ConfigurationHandler;
+import com.fr3gu.letsmodreboot.init.ModBlocks;
 import com.fr3gu.letsmodreboot.init.ModItems;
 import com.fr3gu.letsmodreboot.proxy.IProxy;
 import com.fr3gu.letsmodreboot.reference.Reference;
@@ -30,6 +31,8 @@ public class LetsModReboot {
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
+
+        ModBlocks.init();
 
         LogHelper.info("Pre-initialization complete");
     }

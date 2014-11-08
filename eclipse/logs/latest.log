@@ -1,0 +1,41 @@
+[11:23:50] [main/INFO]: Setting user: ForgeDevName
+[11:23:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[11:24:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
+[11:24:03] [Sound Library Loader/INFO]: Sound engine started
+[11:24:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:24:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:24:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
+[11:24:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[11:24:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[11:24:07] [Sound Library Loader/INFO]: Sound engine started
+[11:26:08] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[11:26:08] [Server thread/INFO]: Generating keypair
+[11:26:09] [Server thread/INFO]: Preparing start region for level 0
+[11:26:10] [Server thread/INFO]: Preparing spawn area: 21%
+[11:26:10] [Server thread/INFO]: Changing view distance to 12, from 10
+[11:26:11] [Server thread/INFO]: ForgeDevName[local:E:f0c88f48] logged in with entity id 328 at (-230.30000001192093, 49.0, 273.5261715336542)
+[11:26:11] [Server thread/INFO]: ForgeDevName joined the game
+[11:26:25] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:26] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:27] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:28] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:28] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:28] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:29] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:29] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:26:30] [Server thread/INFO]: [ForgeDevName: Set own game mode to Creative Mode]
+[11:26:30] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:27:43] [Client thread/INFO]: [CHAT] survival, creative, adventure
+[11:27:45] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[11:27:45] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[11:29:30] [Server thread/INFO]: Saving and pausing game...
+[11:29:30] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:29:30] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:29:30] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:29:31] [Server thread/INFO]: Stopping server
+[11:29:31] [Server thread/INFO]: Saving players
+[11:29:31] [Server thread/INFO]: Saving worlds
+[11:29:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[11:29:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[11:29:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[11:29:34] [Client thread/INFO]: Stopping!
