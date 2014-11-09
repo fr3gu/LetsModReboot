@@ -1,5 +1,6 @@
 package com.fr3gu.letsmodreboot;
 
+import com.fr3gu.letsmodreboot.command.SampleCommand;
 import com.fr3gu.letsmodreboot.handler.ConfigurationHandler;
 import com.fr3gu.letsmodreboot.init.ModBlocks;
 import com.fr3gu.letsmodreboot.init.ModItems;
@@ -12,6 +13,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
 /**
  * Created by Fredrik on 2014-07-10.
@@ -45,5 +47,11 @@ public class LetsModReboot {
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
 
+    }
+
+    @Mod.EventHandler
+    public void serverLoad(FMLServerStartingEvent event)
+    {
+        event.registerServerCommand(new SampleCommand());
     }
 }
