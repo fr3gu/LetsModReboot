@@ -1,171 +1,19 @@
-[22:29:07] [main/INFO]: Setting user: Player312
-[22:29:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:29:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
-[22:29:17] [Sound Library Loader/INFO]: Sound engine started
-[22:29:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:29:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:29:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
-[22:29:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:29:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:29:21] [Sound Library Loader/INFO]: Sound engine started
-[22:29:29] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:29:29] [Server thread/INFO]: Generating keypair
-[22:29:30] [Server thread/INFO]: Preparing start region for level 0
-[22:29:31] [Server thread/INFO]: Preparing spawn area: 42%
-[22:29:31] [Server thread/INFO]: Changing view distance to 12, from 10
-[22:29:32] [Server thread/INFO]: Player312[local:E:f6959a86] logged in with entity id 314 at (-189.51973291254185, 87.0, 247.73196197052295)
-[22:29:32] [Server thread/INFO]: Player312 joined the game
-[22:29:57] [Client thread/INFO]: [CHAT] Found block (Rob's Canadian Flag of Awesomeness) at -190 86 245
-[22:29:57] [Client thread/INFO]: [CHAT] Found block (Rob's Canadian Flag of Awesomeness) at -189 86 245
-[22:29:57] [Client thread/INFO]: [CHAT] Found block (Rob's Canadian Flag of Awesomeness) at -191 86 248
-[22:29:57] [Client thread/INFO]: [CHAT] Found block (Rob's Canadian Flag of Awesomeness) at -192 87 249
-[22:29:57] [Client thread/INFO]: [CHAT] Found block (Rob's Canadian Flag of Awesomeness) at -190 87 250
-[22:29:57] [Client thread/INFO]: [CHAT] ---------------------------
-[22:29:57] [Client thread/INFO]: [CHAT] Found blocks: 5
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 82 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 82 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 82 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 82 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 83 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 84 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 84 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 84 242
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 82 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 83 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 84 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 84 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 84 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 84 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 84 243
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 83 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 84 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 84 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 84 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 84 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 84 244
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 83 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 83 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 83 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 83 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 83 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 84 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 85 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 85 245
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 84 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 85 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 85 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 85 246
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 84 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 84 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 84 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 84 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 84 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 84 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 85 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 85 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 85 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 85 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 85 247
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 84 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 84 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 84 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 85 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 85 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 85 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 85 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 85 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 85 248
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 84 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 84 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 85 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 85 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 85 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 85 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 86 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 86 249
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 84 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 84 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 84 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 84 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 85 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 85 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 85 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 85 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 85 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 86 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 86 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 86 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 86 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 86 250
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 83 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 83 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 83 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 84 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 84 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 84 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 84 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 84 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -185 84 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -190 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -189 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -188 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -187 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -186 85 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -194 86 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 86 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -192 86 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -191 86 251
-[22:30:05] [Client thread/INFO]: [CHAT] Found block (tile.dirt.name) at -193 87 251
-[22:30:05] [Client thread/INFO]: [CHAT] ---------------------------
-[22:30:05] [Client thread/INFO]: [CHAT] Found blocks: 134
-[22:30:21] [Server thread/INFO]: Saving and pausing game...
-[22:30:21] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
-[22:30:21] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
-[22:30:21] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
-[22:30:27] [Server thread/INFO]: Stopping server
-[22:30:27] [Server thread/INFO]: Saving players
-[22:30:27] [Server thread/INFO]: Saving worlds
-[22:30:27] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
-[22:30:27] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
-[22:30:27] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
-[22:30:30] [Client thread/INFO]: Stopping!
+[21:42:15] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[21:42:26] [Server thread/INFO]: Loading properties
+[21:42:26] [Server thread/INFO]: Default game type: SURVIVAL
+[21:42:26] [Server thread/INFO]: Generating keypair
+[21:42:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:42:27] [Server thread/INFO]: Preparing level "world"
+[21:42:29] [Server thread/INFO]: Preparing start region for level 0
+[21:42:30] [Server thread/INFO]: Preparing spawn area: 0%
+[21:42:31] [Server thread/INFO]: Preparing spawn area: 34%
+[21:42:32] [Server thread/INFO]: Preparing spawn area: 84%
+[21:42:32] [Server thread/INFO]: Done (4,589s)! For help, type "help" or "?"
+[21:43:48] [Server thread/INFO]: Could not find block "dirt"
+[21:44:47] [Server thread/INFO]: Could not find block "stone"
+[21:44:52] [Server thread/INFO]: Stopping server
+[21:44:52] [Server thread/INFO]: Saving players
+[21:44:52] [Server thread/INFO]: Saving worlds
+[21:44:52] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:44:52] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[21:44:52] [Server thread/INFO]: Saving chunks for level 'world'/The End
