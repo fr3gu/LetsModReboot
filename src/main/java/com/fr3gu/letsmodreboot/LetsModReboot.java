@@ -3,6 +3,7 @@ package com.fr3gu.letsmodreboot;
 import com.fr3gu.letsmodreboot.command.SampleCommand;
 import com.fr3gu.letsmodreboot.handler.ConfigurationHandler;
 import com.fr3gu.letsmodreboot.init.ModBlocks;
+import com.fr3gu.letsmodreboot.init.ModEntities;
 import com.fr3gu.letsmodreboot.init.ModItems;
 import com.fr3gu.letsmodreboot.proxy.IProxy;
 import com.fr3gu.letsmodreboot.reference.Reference;
@@ -36,11 +37,16 @@ public class LetsModReboot {
 
         ModBlocks.init();
 
+        ModEntities.init();
+
         LogHelper.info("Pre-initialization complete");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+
+        proxy.initRenderers();
+
         LogHelper.info("Initialization complete");
     }
 

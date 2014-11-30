@@ -17,7 +17,7 @@ public class ItemLMRB extends Item {
     }
 
     @Override
-    public String getUnlocalizedName() {
+     public String getUnlocalizedName() {
         return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 

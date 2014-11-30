@@ -10,7 +10,7 @@ public class ItemMapleLeaf extends ItemLMRB {
 
     public ItemMapleLeaf() {
         super();
-        this.setUnlocalizedName("mapleLeaf");
+        this.setUnlocalizedName(ItemInfo.MAPLELEAF_UNLOCALIZED_NAME);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
     }
 }
