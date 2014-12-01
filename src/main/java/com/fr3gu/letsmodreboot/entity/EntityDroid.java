@@ -9,6 +9,7 @@ public class EntityDroid extends Entity {
     private double startY;
     private double targetY;
     private float coreRotation;
+    private float panelRotation;
 
     public EntityDroid(World world) {
         super(world);
@@ -25,7 +26,7 @@ public class EntityDroid extends Entity {
 
     @Override
     protected void entityInit() {
-
+        dataWatcher.addObject(20, (byte)0);
     }
 
     @Override
@@ -55,15 +56,30 @@ public class EntityDroid extends Entity {
             else {
                 motionY = -0.05;
             }
+
+            boolean light = worldObj.getBlockLightValue((int)posX, (int)posY, (int)posZ) == 15;
+            dataWatcher.updateObject(20, light ? (byte)1: (byte) 0);
         }
         else {
             coreRotation += 0.05F;
+
+            if(dataWatcher.getWatchableObjectByte(20) != 0) {
+                // sun is up; extend solar panels!
+                panelRotation = Math.min((float)Math.PI / 2, panelRotation + 0.02F);
+            }
+            else {
+                panelRotation = Math.max(0, panelRotation - 0.02F);
+            }
         }
 
-        setPosition(posX + motionX, posY + motionY, posZ + motionZ);
+        //setPosition(posX + motionX, posY + motionY, posZ + motionZ);
     }
 
     public float getCoreRotation() {
         return coreRotation;
+    }
+
+    public float getPanelRotation() {
+        return panelRotation;
     }
 }
