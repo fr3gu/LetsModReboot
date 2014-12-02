@@ -49,10 +49,19 @@ public class ModelDroid extends ModelBase {
             parts.add(side);
 
             ModelRenderer panel = new ModelRenderer(this, 18, 34);
-            panel.addBox(-4, -0.5F, -0.5F, 8, 5, 1);
-            panel.setRotationPoint(0, 2, 4.5F);
+            panel.addBox(-4, -4.5F, -0.5F, 8, 5, 1);
+            panel.setRotationPoint(0, 2, 6.5F);
+
             side.addChild(panel);
             panels.add(panel);
+
+            ModelRenderer outerPanel = new ModelRenderer(this, 18, 34);
+            outerPanel.addBox(-4, -4.5F, -1.0F, 8, 5, 1);
+            outerPanel.setRotationPoint(0, -5, 0.5F);
+            //outerPanel.rotateAngleX = -(float)Math.PI;
+            panel.addChild(outerPanel);
+
+
         }
 
         core = new ModelRenderer(this, 30, 0);
@@ -64,9 +73,13 @@ public class ModelDroid extends ModelBase {
     @Override
     public void render(Entity entity, float val1, float val2, float val3, float val4, float val5, float mult) {
         EntityDroid droid = (EntityDroid)entity;
+
         core.rotateAngleY = droid.getCoreRotation();
         for(ModelRenderer panel: panels) {
-            panel.rotateAngleX = droid.getPanelRotation();
+            panel.rotateAngleX = -droid.getPanelRotation();
+            for(Object childModel: panel.childModels) {
+                ((ModelRenderer)childModel).rotateAngleX = droid.getOuterPanelRotation();
+            }
         }
         for(ModelRenderer part: parts) {
             part.render(mult);

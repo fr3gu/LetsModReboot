@@ -10,6 +10,7 @@ public class EntityDroid extends Entity {
     private double targetY;
     private float coreRotation;
     private float panelRotation;
+    private float outerPanelRotation;
 
     public EntityDroid(World world) {
         super(world);
@@ -66,9 +67,11 @@ public class EntityDroid extends Entity {
             if(dataWatcher.getWatchableObjectByte(20) != 0) {
                 // sun is up; extend solar panels!
                 panelRotation = Math.min((float)Math.PI / 2, panelRotation + 0.02F);
+                outerPanelRotation = Math.min((float)Math.PI, outerPanelRotation + 0.04F);
             }
             else {
                 panelRotation = Math.max(0, panelRotation - 0.02F);
+                outerPanelRotation = Math.max(0, outerPanelRotation - 0.04F);
             }
         }
 
@@ -81,5 +84,9 @@ public class EntityDroid extends Entity {
 
     public float getPanelRotation() {
         return panelRotation;
+    }
+
+    public float getOuterPanelRotation() {
+        return outerPanelRotation;
     }
 }
