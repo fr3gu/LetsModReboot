@@ -1,6 +1,7 @@
 package com.fr3gu.letsmodreboot.model;
 
 import com.fr3gu.letsmodreboot.entity.EntityDroid;
+import com.fr3gu.letsmodreboot.utility.LogHelper;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;
 import net.minecraft.entity.Entity;
@@ -56,11 +57,10 @@ public class ModelDroid extends ModelBase {
             panels.add(panel);
 
             ModelRenderer outerPanel = new ModelRenderer(this, 18, 34);
-            outerPanel.addBox(-4, -4.5F, -1.0F, 8, 5, 1);
-            outerPanel.setRotationPoint(0, -5, 0.5F);
-            //outerPanel.rotateAngleX = -(float)Math.PI;
+            outerPanel.addBox(-4, -5F, -1, 8, 5, 1);
+            outerPanel.setRotationPoint(0, -4.5F, 0.5F);
+            outerPanel.rotateAngleX = (float)Math.PI;
             panel.addChild(outerPanel);
-
 
         }
 
@@ -78,7 +78,7 @@ public class ModelDroid extends ModelBase {
         for(ModelRenderer panel: panels) {
             panel.rotateAngleX = -droid.getPanelRotation();
             for(Object childModel: panel.childModels) {
-                ((ModelRenderer)childModel).rotateAngleX = droid.getOuterPanelRotation();
+                ((ModelRenderer)childModel).rotateAngleX = -droid.getOuterPanelRotation();
             }
         }
         for(ModelRenderer part: parts) {

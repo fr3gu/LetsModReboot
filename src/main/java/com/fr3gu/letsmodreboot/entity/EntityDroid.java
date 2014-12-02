@@ -1,5 +1,6 @@
 package com.fr3gu.letsmodreboot.entity;
 
+import com.fr3gu.letsmodreboot.utility.LogHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
@@ -67,11 +68,11 @@ public class EntityDroid extends Entity {
             if(dataWatcher.getWatchableObjectByte(20) != 0) {
                 // sun is up; extend solar panels!
                 panelRotation = Math.min((float)Math.PI / 2, panelRotation + 0.02F);
-                outerPanelRotation = Math.min((float)Math.PI, outerPanelRotation + 0.04F);
+                outerPanelRotation = Math.max(0, outerPanelRotation - 0.04F);
             }
             else {
                 panelRotation = Math.max(0, panelRotation - 0.02F);
-                outerPanelRotation = Math.max(0, outerPanelRotation - 0.04F);
+                outerPanelRotation = Math.min((float)Math.PI, outerPanelRotation + 0.04F);
             }
         }
 
