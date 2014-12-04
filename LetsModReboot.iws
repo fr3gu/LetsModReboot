@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f38bffd-9270-4bad-b951-789277b03a54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/reference/RenderIds.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/04ba6478-628e-32a2-915d-0b45ca8b366b.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/04ba6478-628e-32a2-915d-0b45ca8b366b.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-04-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-04-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-04-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-04-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-04-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-04-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-04-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-04-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-04-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-04-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-04-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-04-6.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/68723020-3c7d-332b-9007-b1f8c7a00304.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/68723020-3c7d-332b-9007-b1f8c7a00304.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/8ce64f24-c135-3001-9ff7-8b03d3719e4f.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/8ce64f24-c135-3001-9ff7-8b03d3719e4f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/04ba6478-628e-32a2-915d-0b45ca8b366b.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/04ba6478-628e-32a2-915d-0b45ca8b366b.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/68723020-3c7d-332b-9007-b1f8c7a00304.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/68723020-3c7d-332b-9007-b1f8c7a00304.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/8ce64f24-c135-3001-9ff7-8b03d3719e4f.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/8ce64f24-c135-3001-9ff7-8b03d3719e4f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/model/ModelDroid.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/model/ModelDroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroid.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroidItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroidItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/e2fd3051-a7ee-3ec9-ae1f-a1b6240b0501.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/e7c5c79a-91ee-3db1-afe8-a6ff4d4f15fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
-    </list>
+    <list default="true" id="9f38bffd-9270-4bad-b951-789277b03a54" name="Default" comment="" />
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="run/logs/" />
@@ -728,7 +688,11 @@
       <created>1417700280133</created>
       <updated>1417700280133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ItemRenderer">
+      <created>1417707152211</created>
+      <updated>1417707152211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -778,7 +742,8 @@
     </option>
     <MESSAGE value="Command implemented&#10;" />
     <MESSAGE value="Popping head" />
-    <option name="LAST_COMMIT_MESSAGE" value="Popping head" />
+    <MESSAGE value="ItemRenderer" />
+    <option name="LAST_COMMIT_MESSAGE" value="ItemRenderer" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
