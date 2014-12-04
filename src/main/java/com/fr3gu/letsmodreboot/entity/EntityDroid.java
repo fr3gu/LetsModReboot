@@ -10,7 +10,7 @@ public class EntityDroid extends Entity {
     private double _targetY;
     private float _coreRotation;
     private float _panelRotation;
-    private float _outerPanelRotation;
+    private float _outerPanelRotation = (float)Math.PI;
     private float _helmetPositionRotation;
     private float _colorRed;
     private float _colorGreen;
@@ -18,7 +18,6 @@ public class EntityDroid extends Entity {
 
     public EntityDroid(World world) {
         super(world);
-        _outerPanelRotation = (float)Math.PI;
         _colorRed = world.rand.nextFloat();
         _colorGreen = world.rand.nextFloat();
         _colorBlue = world.rand.nextFloat();

@@ -18,7 +18,7 @@ public class RenderDroid extends Render {
         shadowSize = 0.5F;
     }
 
-    private static final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID + ":textures/models/droid.png");
+    public static final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID + ":textures/models/droid.png");
 
     public void renderDroid(EntityDroid droid, double x, double y, double z, float yaw, float partialTickTime) {
         GL11.glPushMatrix();
@@ -27,7 +27,7 @@ public class RenderDroid extends Render {
 
         bindEntityTexture(droid);
 
-        _model.render(droid, 0F, 0F, 0F, 0F, 0F, 0.0625F);
+        _model.render(droid, droid.getCoreRotation(), droid.getPanelRotation(), droid.getOuterPanelRotation(), droid.getHelmetPosition(), 0F, 0.0625F);
 
         GL11.glPopMatrix();
     }

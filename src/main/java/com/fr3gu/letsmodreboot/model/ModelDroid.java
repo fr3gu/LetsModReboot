@@ -70,26 +70,31 @@ public class ModelDroid extends ModelBase {
     }
 
     @Override
-    public void render(Entity entity, float val1, float val2, float val3, float val4, float val5, float multiplier) {
+    public void render(Entity entity, float coreRotation, float panelRotation, float outerPanelRotation, float helmetPosition, float coreColor, float multiplier) {
         EntityDroid droid = (EntityDroid)entity;
+        if(droid != null) {
 
-        core.rotateAngleY = droid.getCoreRotation();
+            core.rotateAngleY = coreRotation;
 
-        for(ModelRenderer panel: panels) {
-            panel.rotateAngleX = droid.getPanelRotation();
+            for (ModelRenderer panel : panels) {
+                panel.rotateAngleX = panelRotation;
+            }
+
+            for (ModelRenderer outerPanel : outerPanels) {
+                outerPanel.rotateAngleX = outerPanelRotation;
+            }
+
+            pillars.rotationPointY = helmetPosition;
+
         }
-
-        for(ModelRenderer outerPanel: outerPanels) {
-            outerPanel.rotateAngleX = droid.getOuterPanelRotation();
-        }
-
-        pillars.rotationPointY = droid.getHelmetPosition();
 
         for(ModelRenderer part: parts) {
             part.render(multiplier);
         }
 
-        GL11.glColor4f(droid.getColorRed(), droid.getColorGreen(), droid.getColorBlue(), 1F);
+        if(droid != null) {
+            GL11.glColor4f(coreColor, coreColor, coreColor, 1F);
+        }
 
         core.render(multiplier);
     }
