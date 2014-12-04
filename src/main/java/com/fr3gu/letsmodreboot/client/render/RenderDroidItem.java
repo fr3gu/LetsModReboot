@@ -32,7 +32,7 @@ public class RenderDroidItem implements IItemRenderer {
 
         Minecraft.getMinecraft().getTextureManager().bindTexture(RenderDroid.texture);
 
-        _model.render(null, 0, 0, (float)Math.PI, -11.5F, 0, 0.0625F);
+        _model.render(0, 0, (float)Math.PI, 6, 1F, 0F, 0F, 0.0625F);
 
         GL11.glPopMatrix();
     }

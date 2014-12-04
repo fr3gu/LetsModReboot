@@ -27,7 +27,7 @@ public class RenderDroid extends Render {
 
         bindEntityTexture(droid);
 
-        _model.render(droid, droid.getCoreRotation(), droid.getPanelRotation(), droid.getOuterPanelRotation(), droid.getHelmetPosition(), 0F, 0.0625F);
+        _model.render(droid.getCoreRotation(), droid.getPanelRotation(), droid.getOuterPanelRotation(), droid.getHelmetPosition(), droid.getColorRed(), droid.getColorGreen(), droid.getColorBlue(), 0.0625F);
 
         GL11.glPopMatrix();
     }
