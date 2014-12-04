@@ -1,8 +1,5 @@
 package com.fr3gu.letsmodreboot.item;
 
-/**
- * Created by Fredrik on 2014-11-30.
- */
 public class ItemInfo {
 
     public static final String DROID_UNLOCALIZED_NAME = "droidItem";

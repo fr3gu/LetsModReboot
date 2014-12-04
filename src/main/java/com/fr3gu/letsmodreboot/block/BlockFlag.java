@@ -7,7 +7,7 @@ public class BlockFlag extends BlockLMRB {
     public BlockFlag() {
 
         super();
-        this.setBlockName("flag");
+        this.setBlockName(BlockInfo.FLAG_UNLOCALIZED_NAME);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
     }
 }

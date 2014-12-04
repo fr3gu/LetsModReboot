@@ -8,15 +8,13 @@ import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
-/**
- * Created by Fredrik on 2014-11-30.
- */
+@SuppressWarnings("UnusedParameters")
 public class RenderDroid extends Render {
 
-    private ModelDroid model;
+    private ModelDroid _model;
 
-    public RenderDroid() {
-        model = new ModelDroid();
+    public RenderDroid(ModelDroid model) {
+        _model = model;
         shadowSize = 0.5F;
     }
 
@@ -29,7 +27,7 @@ public class RenderDroid extends Render {
 
         bindEntityTexture(droid);
 
-        model.render(droid, 0F, 0F, 0F, 0F, 0F, 0.0625F);
+        _model.render(droid, 0F, 0F, 0F, 0F, 0F, 0.0625F);
 
         GL11.glPopMatrix();
     }
