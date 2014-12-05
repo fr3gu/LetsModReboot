@@ -7,9 +7,6 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-/**
- * Created by Fredrik on 2014-07-10.
- */
 public class ItemLMRB extends Item {
 
     public ItemLMRB() {

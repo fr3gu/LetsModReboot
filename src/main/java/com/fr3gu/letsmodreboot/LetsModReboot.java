@@ -5,6 +5,7 @@ import com.fr3gu.letsmodreboot.handler.ConfigurationHandler;
 import com.fr3gu.letsmodreboot.init.ModBlocks;
 import com.fr3gu.letsmodreboot.init.ModEntities;
 import com.fr3gu.letsmodreboot.init.ModItems;
+import com.fr3gu.letsmodreboot.network.PacketHandler;
 import com.fr3gu.letsmodreboot.proxy.IProxy;
 import com.fr3gu.letsmodreboot.reference.Reference;
 import com.fr3gu.letsmodreboot.utility.LogHelper;
@@ -28,6 +29,9 @@ public class LetsModReboot {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+
+        PacketHandler.init();
+
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
         ModItems.init();
@@ -42,7 +46,7 @@ public class LetsModReboot {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
 
-        proxy.initRenderers();
+        proxy.initRenderingAndTextures();
 
         LogHelper.info("Initialization complete");
     }

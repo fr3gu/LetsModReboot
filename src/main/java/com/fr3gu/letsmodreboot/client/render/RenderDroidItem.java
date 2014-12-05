@@ -16,7 +16,7 @@ public class RenderDroidItem implements IItemRenderer {
 
     @Override
     public boolean handleRenderType(ItemStack item, ItemRenderType type) {
-        return true;
+        return type != ItemRenderType.ENTITY;
     }
 
     @Override
@@ -35,8 +35,10 @@ public class RenderDroidItem implements IItemRenderer {
                 GL11.glTranslatef(-0.5F, 0F, 0F);
                 break;
             case EQUIPPED:
+                GL11.glTranslatef(-0.6F, -0.7F, -0.8F);
                 break;
             case EQUIPPED_FIRST_PERSON:
+                GL11.glTranslatef(-1.0F, -0.1F, -0.2F);
                 break;
             case INVENTORY:
                 GL11.glTranslatef(0F, -0.40F, 0F);

@@ -5,9 +5,6 @@ import com.fr3gu.letsmodreboot.entity.EntityDroid;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-/**
- * Created by Fredrik on 2014-11-30.
- */
 public class ModEntities {
 
     public static void init() {

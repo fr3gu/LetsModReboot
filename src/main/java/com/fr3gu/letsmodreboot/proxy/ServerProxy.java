@@ -5,7 +5,7 @@ package com.fr3gu.letsmodreboot.proxy;
  */
 public class ServerProxy extends CommonProxy {
     @Override
-    public void initRenderers() {
+    public void initRenderingAndTextures() {
         //NOOP
     }
 }

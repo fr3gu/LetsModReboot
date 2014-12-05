@@ -7,9 +7,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 
-/**
- * Created by Fredrik on 2014-07-15.
- */
 public class BlockLMRB extends Block {
 
     public BlockLMRB(Material material) {
