@@ -9,6 +9,7 @@ import net.minecraft.block.Block;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.IIcon;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 
@@ -64,6 +65,16 @@ public class BlockMachine extends BlockLMRB {
     public void onEntityWalking(World world, int x, int y, int z, Entity entity) {
         if(!world.isRemote && !isDisabled(world.getBlockMetadata(x, y, z))) {
             spawnAnvil(world, x, y + 20, z);
+        }
+    }
+
+    @Override
+    public void setBlockBoundsBasedOnState(IBlockAccess world, int x, int y, int z) {
+        if(world.getBlockMetadata(x, y, z) % 2 == 0) {
+            setBlockBounds(0F, 0F, 0F, 1F, 1F, 1F);
+        }
+        else {
+            
         }
     }
 
