@@ -82,6 +82,8 @@ public class ModelDroid extends ModelBase {
 
         pillars.rotationPointY = helmetPosition;
 
+        GL11.glColor4f(1F, 1F, 1F, 1F);
+
         for(ModelRenderer part: parts) {
             part.render(multiplier);
         }

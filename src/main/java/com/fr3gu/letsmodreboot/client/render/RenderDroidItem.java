@@ -30,9 +30,24 @@ public class RenderDroidItem implements IItemRenderer {
         GL11.glPushMatrix();
         GL11.glTranslatef(1F, 1F, 1F);
 
+        switch (type) {
+            case ENTITY:
+                GL11.glTranslatef(-0.5F, 0F, 0F);
+                break;
+            case EQUIPPED:
+                break;
+            case EQUIPPED_FIRST_PERSON:
+                break;
+            case INVENTORY:
+                GL11.glTranslatef(0F, -0.40F, 0F);
+                break;
+            case FIRST_PERSON_MAP:
+                break;
+        }
+
         Minecraft.getMinecraft().getTextureManager().bindTexture(RenderDroid.texture);
 
-        _model.render(0, 0, (float)Math.PI, 6, 1F, 0F, 0F, 0.0625F);
+        _model.render(0, 0, (float)Math.PI, 6, 0.5F, 0F, item.stackSize / 64F, 0.0625F);
 
         GL11.glPopMatrix();
     }
