@@ -18,6 +18,6 @@ public class BlockInfo {
     public static final String BOMB_UNLOCALIZED_NAME = "bomb";
     public static final String BOMB_NAME = "Weird Bomb";
     public static final String BOMB_TEXTURE = "bomb";
-    public static final String BOMB_IDLE_TEXTURE = "bomb_idle";
+    public static final String BOMB_IDLE_TEXTURE_SUFFIX = "_idle";
     public static final String BOMB_TE_KEY = "bombTileEntity";
 }
