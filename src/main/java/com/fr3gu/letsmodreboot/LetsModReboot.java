@@ -1,5 +1,6 @@
 package com.fr3gu.letsmodreboot;
 
+import com.fr3gu.letsmodreboot.block.BlockInfo;
 import com.fr3gu.letsmodreboot.command.SampleCommand;
 import com.fr3gu.letsmodreboot.handler.ConfigurationHandler;
 import com.fr3gu.letsmodreboot.init.ModBlocks;
@@ -16,6 +17,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import net.minecraft.init.Blocks;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot {
@@ -47,6 +49,8 @@ public class LetsModReboot {
     public void init(FMLInitializationEvent event) {
 
         proxy.initRenderingAndTextures();
+
+        ModBlocks.registerTileEntities();
 
         LogHelper.info("Initialization complete");
     }

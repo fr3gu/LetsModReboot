@@ -1,4 +1,6 @@
 item.letsmodreboot:mapleLeaf.name=Rob's Maple Leaf of Awesomeness
-item.letsmodreboot:droidItem.name=Floating Droid
-tile.letsmodreboot:machine.name=Machine
 tile.letsmodreboot:flag.name=Rob's Canadian Flag of Awesomeness
+item.letsmodreboot:droidItem.name=Floating Droid
+tile.letsmodreboot:machine.name=Silly Machine
+tile.letsmodreboot:bomb.name=Weird Bomb
+
