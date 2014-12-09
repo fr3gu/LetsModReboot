@@ -1,11 +1,10 @@
 package com.fr3gu.letsmodreboot;
 
-import com.fr3gu.letsmodreboot.block.BlockInfo;
 import com.fr3gu.letsmodreboot.command.SampleCommand;
 import com.fr3gu.letsmodreboot.handler.ConfigurationHandler;
-import com.fr3gu.letsmodreboot.init.ModBlocks;
-import com.fr3gu.letsmodreboot.init.ModEntities;
-import com.fr3gu.letsmodreboot.init.ModItems;
+import com.fr3gu.letsmodreboot.handler.CraftingHandler;
+import com.fr3gu.letsmodreboot.handler.GuiHandler;
+import com.fr3gu.letsmodreboot.init.*;
 import com.fr3gu.letsmodreboot.network.PacketHandler;
 import com.fr3gu.letsmodreboot.proxy.IProxy;
 import com.fr3gu.letsmodreboot.reference.Reference;
@@ -17,7 +16,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
-import net.minecraft.init.Blocks;
+import cpw.mods.fml.common.network.NetworkRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot {
@@ -48,16 +47,24 @@ public class LetsModReboot {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
 
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
+
+        ModTileEntities.init();
+
         proxy.initRenderingAndTextures();
 
-        ModBlocks.registerTileEntities();
+        proxy.registerEventHandlers();
+
+        CraftingHandler.init();
+
+        Recipes.init();
 
         LogHelper.info("Initialization complete");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-
+        //RecipeRegistry.getInstance().registerVanillaRecipes();
     }
 
     @Mod.EventHandler

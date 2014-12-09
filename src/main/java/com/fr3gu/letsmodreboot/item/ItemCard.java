@@ -1,6 +1,5 @@
 package com.fr3gu.letsmodreboot.item;
 
-import com.fr3gu.letsmodreboot.block.BlockInfo;
 import com.fr3gu.letsmodreboot.block.BlockMachine;
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
 import cpw.mods.fml.relauncher.Side;
@@ -18,6 +17,7 @@ import net.minecraft.world.World;
 import java.util.List;
 
 public class ItemCard extends ItemLMRB {
+
     @SideOnly(Side.CLIENT)
     private IIcon[] _icons;
 
@@ -25,6 +25,7 @@ public class ItemCard extends ItemLMRB {
         super();
         this.setUnlocalizedName(ItemInfo.CARD_UNLOCALIZED_NAME);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+        this.setHasSubtypes(true);
         this.maxStackSize = 64;
     }
 
@@ -42,7 +43,7 @@ public class ItemCard extends ItemLMRB {
         _icons = new IIcon[numberOfCards];
 
         for (int i = 0; i < numberOfCards; i++) {
-            _icons[i] = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName() + BlockInfo.MACHINE_SIDES[i])));
+            _icons[i] = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName() + ItemInfo.CARD_ICONS[i])));
         }
     }
 

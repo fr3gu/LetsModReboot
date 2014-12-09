@@ -5,4 +5,5 @@ package com.fr3gu.letsmodreboot.proxy;
  */
 public interface IProxy {
     public void initRenderingAndTextures();
+    void registerEventHandlers();
 }

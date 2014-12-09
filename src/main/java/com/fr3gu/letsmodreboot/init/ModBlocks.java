@@ -4,6 +4,8 @@ import com.fr3gu.letsmodreboot.block.*;
 import com.fr3gu.letsmodreboot.reference.Reference;
 import com.fr3gu.letsmodreboot.tileentity.TileEntityBomb;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.passive.EntityCow;
 
 /**
  * Created by Fredrik on 2014-07-15.
@@ -19,9 +21,5 @@ public class ModBlocks {
         GameRegistry.registerBlock(flag, BlockInfo.FLAG_UNLOCALIZED_NAME);
         GameRegistry.registerBlock(machine, BlockInfo.MACHINE_UNLOCALIZED_NAME);
         GameRegistry.registerBlock(bomb, BlockInfo.BOMB_UNLOCALIZED_NAME);
-    }
-
-    public static void registerTileEntities() {
-        GameRegistry.registerTileEntity(TileEntityBomb.class, BlockInfo.BOMB_TE_KEY);
     }
 }
