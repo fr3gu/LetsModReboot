@@ -2,6 +2,7 @@ package com.fr3gu.letsmodreboot.item;
 
 import com.fr3gu.letsmodreboot.block.BlockMachine;
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.fr3gu.letsmodreboot.init.ModBlocks;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -73,19 +74,19 @@ public class ItemCard extends ItemLMRB {
 
         switch (meta) {
             case 0:
-                return EnumChatFormatting.BLUE + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.BLUE + super.getItemStackDisplayName(itemStack);
             case 1:
-                return EnumChatFormatting.YELLOW + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.YELLOW + super.getItemStackDisplayName(itemStack);
             case 2:
-                return EnumChatFormatting.GREEN + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.GREEN + super.getItemStackDisplayName(itemStack);
             default:
-                return EnumChatFormatting.WHITE + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.WHITE + super.getItemStackDisplayName(itemStack);
         }
     }
 
     @Override
     public boolean onItemUseFirst(ItemStack itemStack, EntityPlayer player, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ) {
-        if(!world.isRemote && world.getBlock(x, y, z) instanceof BlockMachine) {
+        if(!world.isRemote && world.getBlock(x, y, z) == ModBlocks.machine) {
             int meta = world.getBlockMetadata(x, y, z);
 
             int disabled = meta % 2;

@@ -1,13 +1,10 @@
 package com.fr3gu.letsmodreboot.block;
 
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
-import com.fr3gu.letsmodreboot.reference.Strings;
 import com.fr3gu.letsmodreboot.tileentity.TileEntityBomb;
-import com.fr3gu.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockAnvil;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
