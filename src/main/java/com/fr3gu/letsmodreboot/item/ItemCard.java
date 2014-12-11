@@ -73,13 +73,13 @@ public class ItemCard extends ItemLMRB {
 
         switch (meta) {
             case 0:
-                return EnumChatFormatting.BLUE + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.BLUE + super.getItemStackDisplayName(itemStack);
             case 1:
-                return EnumChatFormatting.YELLOW + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.YELLOW + super.getItemStackDisplayName(itemStack);
             case 2:
-                return EnumChatFormatting.GREEN + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.GREEN + super.getItemStackDisplayName(itemStack);
             default:
-                return EnumChatFormatting.WHITE + ItemInfo.CARD_NAME;
+                return EnumChatFormatting.WHITE + super.getItemStackDisplayName(itemStack);
         }
     }
 

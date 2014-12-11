@@ -1,7 +1,11 @@
 item.letsmodreboot:mapleLeaf.name=Rob's Maple Leaf of Awesomeness
 item.letsmodreboot:droidItem.name=Floating Droid
+item.letsmodreboot:cardArrow.name=Arrow Card
+item.letsmodreboot:cardBorder.name=Border Card
+item.letsmodreboot:cardCross.name=Cross Card
 item.letsmodreboot:rocketWand.name=Wand of the Rocket
 tile.letsmodreboot:flag.name=Rob's Canadian Flag of Awesomeness
 tile.letsmodreboot:machine.name=Silly Machine
 tile.letsmodreboot:bomb.name=Weird Bomb
+tile.letsmodreboot:bombWaila.name=Weird Bomb Waila
 

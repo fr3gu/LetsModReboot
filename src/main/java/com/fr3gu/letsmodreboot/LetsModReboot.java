@@ -12,10 +12,7 @@ import com.fr3gu.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.event.*;
 import cpw.mods.fml.common.network.NetworkRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -58,6 +55,8 @@ public class LetsModReboot {
         CraftingHandler.init();
 
         Recipes.init();
+
+        FMLInterModComms.sendMessage("Waila", "register", "mcp.mobius.waila_demo.ProviderDemo.callbackRegister");
 
         LogHelper.info("Initialization complete");
     }
