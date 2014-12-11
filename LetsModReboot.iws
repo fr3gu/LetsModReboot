@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f38bffd-9270-4bad-b951-789277b03a54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/model/ModelSpaceship.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java" />
-      <change type="MOVED" beforePath="C:\Dev\LetsModReboot\src\main\java\com\fr3gu\letsmodreboot\init\Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModRecipes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/1178851a-8246-318e-85f8-1ae4517330a2.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/1178851a-8246-318e-85f8-1ae4517330a2.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/1b8221f7-5861-330e-bef0-ac96b785ff27.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/1b8221f7-5861-330e-bef0-ac96b785ff27.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/2659329e-1c65-3850-9659-d27fc655aa3c.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/2659329e-1c65-3850-9659-d27fc655aa3c.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3c098a03-04cc-31fd-856f-be4ccab4daf7.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/3f66a67c-db6c-36b7-b762-d7a40c17883b.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/3f66a67c-db6c-36b7-b762-d7a40c17883b.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/41196538-4c2b-371d-b141-0e51ad033fac.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/41196538-4c2b-371d-b141-0e51ad033fac.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/4c4af65a-e991-33a8-a762-2d145c215578.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/6ecd1629-dee4-373d-9457-481bd36b0826.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/6ecd1629-dee4-373d-9457-481bd36b0826.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/905847c0-6737-32d8-85e6-3f64ecd32033.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/905847c0-6737-32d8-85e6-3f64ecd32033.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/Mineshaft.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/Mineshaft.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/ca560dd3-ebf9-3fc9-b2e6-088534082c81.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/ca560dd3-ebf9-3fc9-b2e6-088534082c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/d60321ce-54ba-31e5-bac3-cbb6a732015a.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/d60321ce-54ba-31e5-bac3-cbb6a732015a.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/f8a1463c-07b2-3433-918f-386b8accf0f1.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/f8a1463c-07b2-3433-918f-386b8accf0f1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/08e49200-0644-3742-931a-94fcbb560d07.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/08e49200-0644-3742-931a-94fcbb560d07.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-1.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-2.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-3.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-4.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-5.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-6.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/2014-12-11-7.log.gz" afterPath="$PROJECT_DIR$/run/logs/2014-12-11-7.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/bf0c47d3-02b6-3463-8e38-457226b1407c.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/d75ffc85-72b0-3b94-be32-d104d89a3a6a.dat" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/d75ffc85-72b0-3b94-be32-d104d89a3a6a.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" />
@@ -31,26 +22,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/run/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/1178851a-8246-318e-85f8-1ae4517330a2.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/1178851a-8246-318e-85f8-1ae4517330a2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/1b8221f7-5861-330e-bef0-ac96b785ff27.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/1b8221f7-5861-330e-bef0-ac96b785ff27.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/2659329e-1c65-3850-9659-d27fc655aa3c.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/2659329e-1c65-3850-9659-d27fc655aa3c.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/3c098a03-04cc-31fd-856f-be4ccab4daf7.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/3f66a67c-db6c-36b7-b762-d7a40c17883b.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/3f66a67c-db6c-36b7-b762-d7a40c17883b.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/41196538-4c2b-371d-b141-0e51ad033fac.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/41196538-4c2b-371d-b141-0e51ad033fac.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/45c2c1e2-9dd4-3d62-8e53-82e2b4b32b4a.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/4c4af65a-e991-33a8-a762-2d145c215578.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/6ecd1629-dee4-373d-9457-481bd36b0826.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/6ecd1629-dee4-373d-9457-481bd36b0826.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/905847c0-6737-32d8-85e6-3f64ecd32033.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/905847c0-6737-32d8-85e6-3f64ecd32033.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/9a9101ac-937d-31fc-99f0-be5bc89dd1bc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/08e49200-0644-3742-931a-94fcbb560d07.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/08e49200-0644-3742-931a-94fcbb560d07.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/LetsModReboot.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/LetsModReboot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModEntities.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModEntities.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/ca560dd3-ebf9-3fc9-b2e6-088534082c81.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/d60321ce-54ba-31e5-bac3-cbb6a732015a.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/f8a1463c-07b2-3433-918f-386b8accf0f1.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/f8a1463c-07b2-3433-918f-386b8accf0f1.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java" afterPath="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/bf0c47d3-02b6-3463-8e38-457226b1407c.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/saves/New World/stats/d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" afterPath="$PROJECT_DIR$/run/saves/New World/stats/d75ffc85-72b0-3b94-be32-d104d89a3a6a.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/run/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/run/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run/logs/latest.log" afterPath="$PROJECT_DIR$/run/logs/latest.log" />
@@ -114,56 +91,88 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClientProxy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java">
+      <file leaf-file-name="EntitySpaceship.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="1800">
+              <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#1106#1107#0" expanded="true" />
+                <element signature="e#1162#1163#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#2056#2057#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+                <element signature="e#2196#2197#0" expanded="true" />
+                <element signature="e#2274#2275#0" expanded="true" />
+                <element signature="e#2334#2335#0" expanded="true" />
+                <element signature="e#2371#2372#0" expanded="true" />
+                <element signature="e#2404#2405#0" expanded="true" />
+                <element signature="e#2455#2456#0" expanded="true" />
+                <element signature="e#2493#2494#0" expanded="true" />
+                <element signature="e#2557#2558#0" expanded="true" />
+                <element signature="e#2604#2605#0" expanded="true" />
+                <element signature="e#2675#2676#0" expanded="true" />
+                <element signature="e#2732#2733#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacketHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/PacketHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntitySpaceship.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java">
+      <file leaf-file-name="MessageTileEntityLMRB.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityLMRB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1164" max-vertical-offset="1785">
-              <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RenderSpaceship.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.057971016" vertical-offset="234" max-vertical-offset="855">
+              <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1080#1081#0" expanded="true" />
-                <element signature="e#1155#1156#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-                <element signature="e#1529#1530#0" expanded="true" />
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2105#2106#0" expanded="true" />
-                <element signature="e#2184#2185#0" expanded="true" />
-                <element signature="e#2245#2246#0" expanded="true" />
-                <element signature="e#2323#2324#0" expanded="true" />
-                <element signature="e#2383#2384#0" expanded="true" />
-                <element signature="e#2504#2505#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2606#2607#0" expanded="true" />
-                <element signature="e#2653#2654#0" expanded="true" />
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2781#2782#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RenderSpaceship.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java">
+      <file leaf-file-name="RenderDroid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="855">
-              <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Render.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/client/renderer/entity/Render.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5400">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,7 +180,7 @@
       <file leaf-file-name="ItemWand.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1290">
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1290">
               <caret line="73" column="54" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="54" />
               <folding />
             </state>
@@ -188,11 +197,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityDroid.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EntityDroid.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38647342" vertical-offset="0" max-vertical-offset="1920">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#1019#1020#0" expanded="true" />
                 <element signature="e#1053#1054#0" expanded="true" />
@@ -203,16 +212,6 @@
                 <element signature="e#1523#1524#0" expanded="true" />
                 <element signature="e#1573#1574#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonProxy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/CommonProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -293,11 +292,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/Recipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModRecipes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModEntities.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java" />
       </list>
     </option>
   </component>
@@ -1181,7 +1180,11 @@
       <created>1418138262150</created>
       <updated>1418138262150</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Spaceship">
+      <created>1418300899928</created>
+      <updated>1418300899928</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1194,7 +1197,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32239926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39761093" sideWeight="0.5408472" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39737582" sideWeight="0.540625" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39175257" sideWeight="0.296875" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1205,7 +1208,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39175257" sideWeight="0.703125" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39175257" sideWeight="0.703125" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1236,7 +1239,8 @@
     <MESSAGE value="Tileentites&#10;" />
     <MESSAGE value="Tileentites contd.&#10;" />
     <MESSAGE value="Wand and Card&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wand and Card&#10;" />
+    <MESSAGE value="Spaceship" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spaceship" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1249,13 +1253,14 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <condition expression="((EntitySpaceship)entity).getIsCharged() == true&#13;&#13;JAVA" />
           <url>file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java</url>
           <line>47</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1263,20 +1268,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/PacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ServerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/IProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -1362,13 +1353,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityLMRB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1517,14 +1501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroidItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
@@ -1609,13 +1585,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/entity/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="855">
-          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-49.75" vertical-offset="11507" max-vertical-offset="38775">
+          <caret line="937" column="23" selection-start-line="937" selection-start-column="23" selection-end-line="937" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,48 +1601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-49.75" vertical-offset="11507" max-vertical-offset="38775">
-          <caret line="937" column="23" selection-start-line="937" selection-start-column="23" selection-end-line="937" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1164" max-vertical-offset="1785">
-          <caret line="112" column="50" selection-start-line="112" selection-start-column="50" selection-end-line="112" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2105#2106#0" expanded="true" />
-            <element signature="e#2184#2185#0" expanded="true" />
-            <element signature="e#2245#2246#0" expanded="true" />
-            <element signature="e#2323#2324#0" expanded="true" />
-            <element signature="e#2383#2384#0" expanded="true" />
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2653#2654#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2781#2782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38647342" vertical-offset="0" max-vertical-offset="1920">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1053#1054#0" expanded="true" />
@@ -1678,6 +1614,80 @@
             <element signature="e#1287#1288#0" expanded="true" />
             <element signature="e#1523#1524#0" expanded="true" />
             <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/client/renderer/entity/Render.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5400">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/PacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityLMRB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1179" max-vertical-offset="1800">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1106#1107#0" expanded="true" />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2056#2057#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#2196#2197#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2371#2372#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderDroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.057971016" vertical-offset="234" max-vertical-offset="855">
+          <caret line="18" column="99" selection-start-line="18" selection-start-column="99" selection-end-line="18" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

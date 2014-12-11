@@ -1,7 +1,6 @@
 package com.fr3gu.letsmodreboot.entity;
 
 import com.fr3gu.letsmodreboot.utility.LogHelper;
-import com.google.common.io.ByteArrayDataOutput;
 import cpw.mods.fml.common.registry.IEntityAdditionalSpawnData;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.entity.Entity;
@@ -110,6 +109,6 @@ public class EntitySpaceship extends Entity implements IEntityAdditionalSpawnDat
 
     @Override
     public void readSpawnData(ByteBuf additionalData) {
-        _isCharged = additionalData.getBoolean(0);
+        _isCharged = additionalData.readBoolean();
     }
 }
