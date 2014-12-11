@@ -54,7 +54,7 @@ public class LetsModReboot {
 
         CraftingHandler.init();
 
-        Recipes.init();
+        ModRecipes.init();
 
         FMLInterModComms.sendMessage("Waila", "register", "mcp.mobius.waila_demo.ProviderDemo.callbackRegister");
 

@@ -1,7 +1,9 @@
 package com.fr3gu.letsmodreboot.entity;
 
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.World;
 
 public class EntityDroid extends Entity {
@@ -31,6 +33,28 @@ public class EntityDroid extends Entity {
         posZ = z;
     }
 
+    @Override
+    public AxisAlignedBB getBoundingBox() {
+        return boundingBox;
+    }
+
+    @Override
+    public AxisAlignedBB getCollisionBox(Entity entity) {
+        return entity != riddenByEntity ? entity.boundingBox : null;
+    }
+
+    @Override
+    public boolean canBeCollidedWith() {
+        return !isDead;
+    }
+
+    @Override
+    public boolean interactFirst(EntityPlayer player) {
+        if(!worldObj.isRemote && riddenByEntity == null) {
+            kill();
+        }
+        return true;
+    }
 
     @Override
     protected void entityInit() {

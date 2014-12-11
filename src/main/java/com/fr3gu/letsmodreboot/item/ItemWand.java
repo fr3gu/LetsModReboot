@@ -1,6 +1,7 @@
 package com.fr3gu.letsmodreboot.item;
 
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.fr3gu.letsmodreboot.entity.EntitySpaceship;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -8,6 +9,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
+import net.minecraft.world.World;
 
 import java.util.List;
 
@@ -66,6 +68,25 @@ public class ItemWand extends ItemLMRB {
         }
     }
 
+    @Override
+    public boolean onItemUseFirst(ItemStack itemStack, EntityPlayer player, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ) {
+        if(!world.isRemote && player.isSneaking()) {
+            EntitySpaceship ship = new EntitySpaceship(world, x, y, z);
+
+            if(isCharged(itemStack.getItemDamage())) {
+                ship.setIsCharged(true);
+                itemStack.setItemDamage(0);
+            }
+            else
+                itemStack.setItemDamage(itemStack.getItemDamage() + 1);
+
+            world.spawnEntityInWorld(ship);
+
+            return true;
+        }
+        return false;
+
+    }
     private boolean isCharged(int dmg) {
         return dmg >= 10;
     }
