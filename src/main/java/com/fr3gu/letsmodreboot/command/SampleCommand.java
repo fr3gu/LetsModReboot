@@ -1,15 +1,14 @@
 package com.fr3gu.letsmodreboot.command;
 
+import com.fr3gu.letsmodreboot.block.ExtendedBlockInfo;
 import net.minecraft.block.Block;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.dedicated.DedicatedServer;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.world.World;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,18 +21,18 @@ public class SampleCommand implements ICommand {
 
     public SampleCommand() {
         this.aliases = new ArrayList();
-        this.aliases.add("sample");
-        this.aliases.add("sam");
+        this.aliases.add("findblock");
+        this.aliases.add("fib");
     }
 
     @Override
     public String getCommandName() {
-        return "sample";
+        return "findblock";
     }
 
     @Override
     public String getCommandUsage(ICommandSender commandSender) {
-        return "sample <text>";
+        return "findblock <text>";
     }
 
     @Override
@@ -91,7 +90,7 @@ public class SampleCommand implements ICommand {
         }
 
         //try {
-            ArrayList<Reka> foundBlocks = new ArrayList<Reka>();
+            ArrayList<ExtendedBlockInfo> foundBlocks = new ArrayList<ExtendedBlockInfo>();
 
             for (int z = -radius; z < radius; z++) {
                 for (int y = -heightRadius; y < heightRadius; y++) {
@@ -103,14 +102,14 @@ public class SampleCommand implements ICommand {
                         Block b = world.getBlock(posX, posY, posZ);
                         String blockId = b.getUnlocalizedName();
                         if(blockId.equals("tile." + blockNameIn)) {
-                            foundBlocks.add(new Reka(b, posX, posY, posZ));
+                            foundBlocks.add(new ExtendedBlockInfo(b, posX, posY, posZ));
                         }
                     }
                 }
             }
 
             if(foundBlocks.size() > 0) {
-                for (Reka r : foundBlocks) {
+                for (ExtendedBlockInfo r : foundBlocks) {
                     String foundBlockName = r.getBlock().getLocalizedName();
                     System.out.println("BlockId: " + foundBlockName);
                     int[] coords = r.getCoords();
@@ -161,22 +160,3 @@ public class SampleCommand implements ICommand {
     }
 }
 
-class Reka {
-    private Block _block;
-    private int[] _coords;
-
-    public Reka(Block block, int posX, int posY, int posZ) {
-        _block = block;
-        _coords = new int[] { posX, posY, posZ};
-    }
-
-    public Block getBlock() {
-        return _block;
-    }
-
-    public int[] getCoords() {
-        return _coords;
-    }
-
-
-}

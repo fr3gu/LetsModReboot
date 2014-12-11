@@ -191,6 +191,7 @@
     <dictionary name="Fredrik">
       <words>
         <w>coords</w>
+        <w>findblock</w>
         <w>letsmodreboot</w>
         <w>mapleleaf</w>
         <w>minecraft</w>

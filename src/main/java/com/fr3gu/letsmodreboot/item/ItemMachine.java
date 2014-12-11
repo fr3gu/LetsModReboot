@@ -2,7 +2,6 @@ package com.fr3gu.letsmodreboot.item;
 
 import com.fr3gu.letsmodreboot.block.BlockInfo;
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
-import com.fr3gu.letsmodreboot.reference.Strings;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 
@@ -10,9 +9,8 @@ public class ItemMachine extends ItemBlockLMRB {
 
     public ItemMachine(Block block) {
         super(block);
-        setHasSubtypes(true);
-        setCreativeTab(CreativeTabLMRB.LMRB_TAB);
-        maxStackSize = 1;
+        this.setHasSubtypes(true);
+        this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
     }
 
     @Override

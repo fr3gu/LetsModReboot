@@ -7,6 +7,7 @@ import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
 
+@SuppressWarnings("unsafe")
 public class GuiConfiguration extends GuiConfig {
 
     public GuiConfiguration(GuiScreen guiScreen) {

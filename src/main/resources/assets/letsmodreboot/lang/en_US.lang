@@ -4,8 +4,14 @@ item.letsmodreboot:cardArrow.name=Arrow Card
 item.letsmodreboot:cardBorder.name=Border Card
 item.letsmodreboot:cardCross.name=Cross Card
 item.letsmodreboot:rocketWand.name=Wand of the Rocket
+item.letsmodreboot:cardArrow.name=Arrow Card
+item.letsmodreboot:cardBorder.name=Border Card
+item.letsmodreboot:cardCross.name=Cross Card
 tile.letsmodreboot:flag.name=Rob's Canadian Flag of Awesomeness
-tile.letsmodreboot:machine.name=Silly Machine
+tile.letsmodreboot:machineNormal.name=Silly Machine
+tile.letsmodreboot:machineArrow.name=Silly Machine - Arrow
+tile.letsmodreboot:machineBorder.name=Silly Machine - Border
+tile.letsmodreboot:machineCross.name=Silly Machine - Cross
 tile.letsmodreboot:bomb.name=Weird Bomb
 tile.letsmodreboot:bombWaila.name=Weird Bomb Waila
 

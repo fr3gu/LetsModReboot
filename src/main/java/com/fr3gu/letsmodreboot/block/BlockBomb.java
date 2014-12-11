@@ -7,10 +7,13 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import java.util.Random;
 
 public class BlockBomb extends BlockContainerLMRB {
 
@@ -39,8 +42,12 @@ public class BlockBomb extends BlockContainerLMRB {
 
     @Override
     @SideOnly(Side.CLIENT)
-    public IIcon getIcon(IBlockAccess world, int x, int y, int z, int side) {
-        TileEntityBomb bomb = (TileEntityBomb)world.getTileEntity(x, y, z);
-        return bomb.isIdle() ? _idleIcon : blockIcon;
+    public IIcon getIcon(int side, int meta) {
+        return meta == 0 ? blockIcon : _idleIcon;
+    }
+
+    @Override
+    public Item getItemDropped(int meta, Random random, int fortune) {
+        return null;
     }
 }

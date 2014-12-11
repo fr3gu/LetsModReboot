@@ -2,6 +2,7 @@ package com.fr3gu.letsmodreboot.item;
 
 import com.fr3gu.letsmodreboot.block.BlockMachine;
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.fr3gu.letsmodreboot.init.ModBlocks;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -85,7 +86,7 @@ public class ItemCard extends ItemLMRB {
 
     @Override
     public boolean onItemUseFirst(ItemStack itemStack, EntityPlayer player, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ) {
-        if(!world.isRemote && world.getBlock(x, y, z) instanceof BlockMachine) {
+        if(!world.isRemote && world.getBlock(x, y, z) == ModBlocks.machine) {
             int meta = world.getBlockMetadata(x, y, z);
 
             int disabled = meta % 2;
