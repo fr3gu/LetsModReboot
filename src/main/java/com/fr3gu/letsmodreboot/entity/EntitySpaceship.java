@@ -132,5 +132,6 @@ public class EntitySpaceship extends Entity implements IEntityAdditionalSpawnDat
 
     public void doDrop() {
         LogHelper.info("BOMB DROPPED!");
+
     }
 }
