@@ -1,13 +1,13 @@
-package com.fr3gu.letsmodreboot.tileentity;
+package com.fr3gu.letsmodreboot.network.message;
 
-import com.fr3gu.letsmodreboot.network.message.MessageTileEntityLMRB;
+import com.fr3gu.letsmodreboot.tileentity.TileEntityDummyArray;
+import com.fr3gu.letsmodreboot.tileentity.TileEntityLMRB;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
 import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
 import cpw.mods.fml.common.network.simpleimpl.MessageContext;
 import io.netty.buffer.ByteBuf;
 import net.minecraft.tileentity.TileEntity;
-import sun.plugin2.message.Message;
 
 public class MessageTileEntityDummy implements IMessage, IMessageHandler<MessageTileEntityDummy, IMessage> {
 

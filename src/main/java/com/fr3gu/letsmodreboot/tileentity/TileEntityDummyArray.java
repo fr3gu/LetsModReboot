@@ -1,6 +1,7 @@
 package com.fr3gu.letsmodreboot.tileentity;
 
 import com.fr3gu.letsmodreboot.network.PacketHandler;
+import com.fr3gu.letsmodreboot.network.message.MessageTileEntityDummy;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.Packet;
 

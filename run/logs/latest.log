@@ -1,60 +1,34 @@
-[14:18:37] [main/INFO]: Setting user: Player406
-[14:18:38] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:18:39] [Client thread/ERROR]: Couldn't initialize twitch stream
-[14:18:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
-[14:18:42] [Sound Library Loader/INFO]: Sound engine started
-[14:18:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:18:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:18:43] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
-[14:18:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:18:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:18:44] [Sound Library Loader/INFO]: Sound engine started
-[14:19:44] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:19:44] [Server thread/INFO]: Generating keypair
-[14:19:44] [Server thread/INFO]: Preparing start region for level 0
-[14:19:45] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:19:45] [Server thread/INFO]: Player406[local:E:e9a3bb5b] logged in with entity id 458 at (-48.579258197296454, 60.0, 152.60400115797773)
-[14:19:45] [Server thread/INFO]: Player406 joined the game
-[14:19:46] [Client thread/WARN]: Failed to load texture: LetsModReboot::textures/models/spaceship_charged.png
-java.io.FileNotFoundException: LetsModReboot::textures/models/spaceship_charged.png
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:45) [TextureManager.class:?]
-	at net.minecraft.client.renderer.entity.Render.bindTexture(Render.java:60) [Render.class:?]
-	at net.minecraft.client.renderer.entity.Render.bindEntityTexture(Render.java:55) [Render.class:?]
-	at com.fr3gu.letsmodreboot.client.render.RenderSpaceship.renderSpaceship(RenderSpaceship.java:34) [RenderSpaceship.class:?]
-	at com.fr3gu.letsmodreboot.client.render.RenderSpaceship.doRender(RenderSpaceship.java:43) [RenderSpaceship.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.func_147939_a(RenderManager.java:300) [RenderManager.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:278) [RenderManager.class:?]
-	at net.minecraft.client.renderer.entity.RenderManager.renderEntitySimple(RenderManager.java:251) [RenderManager.class:?]
-	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:527) [RenderGlobal.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1300) [EntityRenderer.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1087) [EntityRenderer.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1056) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:951) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
-	at GradleStart.main(GradleStart.java:45) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_67]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_67]
-	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_67]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[14:19:50] [Server thread/INFO]: Saving and pausing game...
-[14:19:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:19:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:19:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:19:51] [Server thread/INFO]: Stopping server
-[14:19:51] [Server thread/INFO]: Saving players
-[14:19:51] [Server thread/INFO]: Saving worlds
-[14:19:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:19:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:19:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:19:52] [Client thread/INFO]: Stopping!
+[23:17:02] [main/INFO]: Setting user: Player875
+[23:17:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:17:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
+[23:17:14] [Sound Library Loader/INFO]: Sound engine started
+[23:17:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:17:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:17:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Let's Mod: Reboot
+[23:17:17] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:17:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:17:19] [Sound Library Loader/INFO]: Sound engine started
+[23:17:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:17:28] [Server thread/INFO]: Generating keypair
+[23:17:29] [Server thread/INFO]: Preparing start region for level 0
+[23:17:30] [Server thread/INFO]: Preparing spawn area: 65%
+[23:17:30] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:17:31] [Server thread/INFO]: Player875[local:E:9167a8ba] logged in with entity id 198 at (-40.5, 173.15000000000052, 153.5)
+[23:17:31] [Server thread/INFO]: Player875 joined the game
+[23:17:34] [Server thread/INFO]: Saving and pausing game...
+[23:17:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:17:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:17:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:18:24] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
+[23:18:26] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:step.anvil
+[23:20:10] [Server thread/INFO]: Saving and pausing game...
+[23:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:20:10] [Server thread/INFO]: Stopping server
+[23:20:10] [Server thread/INFO]: Saving players
+[23:20:10] [Server thread/INFO]: Saving worlds
+[23:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:20:10] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[23:20:21] [Client thread/INFO]: Stopping!

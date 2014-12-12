@@ -5,7 +5,7 @@ import com.fr3gu.letsmodreboot.utility.LogHelper;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 
-public class TileEntityBomb extends TileEntity {
+public class TileEntityBomb extends TileEntityLMRB {
 
     private static final int SPREAD_TIME = 5;
     private static final int SPREAD_LEVELS = 30;

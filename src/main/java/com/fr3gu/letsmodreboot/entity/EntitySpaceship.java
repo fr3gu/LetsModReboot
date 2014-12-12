@@ -1,8 +1,12 @@
 package com.fr3gu.letsmodreboot.entity;
 
+import com.fr3gu.letsmodreboot.network.PacketHandler;
+import com.fr3gu.letsmodreboot.network.message.MessageTileEntityBomb;
+import com.fr3gu.letsmodreboot.network.message.MessageTileEntityLMRB;
 import com.fr3gu.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.common.registry.IEntityAdditionalSpawnData;
 import io.netty.buffer.ByteBuf;
+import net.minecraft.client.Minecraft;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
@@ -13,6 +17,7 @@ public class EntitySpaceship extends Entity implements IEntityAdditionalSpawnDat
 
     private boolean _isCharged;
     private double _startY;
+    private boolean _lastPressedState;
 
     public EntitySpaceship(World world) {
         super(world);
@@ -75,13 +80,26 @@ public class EntitySpaceship extends Entity implements IEntityAdditionalSpawnDat
                 motionY = 0;
             }
         }
+        else {
+            sendInformation();
+        }
 
         setPosition(posX + motionX, posY + motionY, posZ + motionZ);
     }
 
+    private void sendInformation() {
+        Minecraft minecraft = Minecraft.getMinecraft();
+        boolean state = minecraft.gameSettings.keyBindJump.isPressed();
+
+        if(state && !_lastPressedState && _isCharged && riddenByEntity == minecraft.thePlayer) {
+            PacketHandler.INSTANCE.sendToServer(new MessageTileEntityBomb(this));
+        }
+        _lastPressedState = state;
+    }
+
     @Override
     protected void entityInit() {
-        LogHelper.info("Init! Charged: " + _isCharged);
+        // NOOP
     }
 
     @Override
@@ -110,5 +128,9 @@ public class EntitySpaceship extends Entity implements IEntityAdditionalSpawnDat
     @Override
     public void readSpawnData(ByteBuf additionalData) {
         _isCharged = additionalData.readBoolean();
+    }
+
+    public void doDrop() {
+        LogHelper.info("BOMB DROPPED!");
     }
 }

@@ -16,7 +16,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 public class RenderSpaceship extends Render {
 	
 	public static final ResourceLocation texture = new ResourceLocation(Reference.MOD_ID + ":textures/models/spaceship.png");
-	private static final ResourceLocation chargedTexture = new ResourceLocation(Reference.MOD_ID, ":textures/models/spaceship_charged.png");
+    public static final ResourceLocation chargedTexture = new ResourceLocation(Reference.MOD_ID + ":textures/models/spaceship_charged.png");
 	
 	protected ModelSpaceship _model;
 	
