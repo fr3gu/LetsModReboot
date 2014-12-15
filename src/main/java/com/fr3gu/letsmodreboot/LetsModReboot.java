@@ -48,6 +48,8 @@ public class LetsModReboot {
 
         ModTileEntities.init();
 
+        proxy.initSounds();
+
         proxy.initRenderingAndTextures();
 
         proxy.registerEventHandlers();

@@ -1,0 +1,11 @@
+{
+    "wand": {
+        "category": "master",
+        "sounds": [
+            {
+                "name": "wand",
+                "stream": false
+            }
+        ]
+    }
+}

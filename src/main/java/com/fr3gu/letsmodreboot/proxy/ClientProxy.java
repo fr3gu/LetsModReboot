@@ -11,9 +11,15 @@ import com.fr3gu.letsmodreboot.model.ModelDroid;
 import com.fr3gu.letsmodreboot.model.ModelSpaceship;
 import com.fr3gu.letsmodreboot.reference.RenderIds;
 import cpw.mods.fml.client.registry.RenderingRegistry;
+import net.minecraft.client.audio.SoundRegistry;
 import net.minecraftforge.client.MinecraftForgeClient;
 
 public class ClientProxy extends CommonProxy {
+
+    @Override
+    public void initSounds() {
+
+    }
 
     @Override
     public void initRenderingAndTextures() {

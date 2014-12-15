@@ -2,6 +2,7 @@ package com.fr3gu.letsmodreboot.item;
 
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.fr3gu.letsmodreboot.entity.EntitySpaceship;
+import com.fr3gu.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -53,6 +54,8 @@ public class ItemWand extends ItemLMRB {
             else {
                 itemStack.setItemDamage(itemStack.getItemDamage() + 1);
             }
+
+            target.worldObj.playSoundAtEntity(player, (Reference.MOD_ID + ":wand"), 1F, 0F);
 
         }
         return false;
