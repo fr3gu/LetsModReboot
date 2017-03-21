@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9f38bffd-9270-4bad-b951-789277b03a54" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/bin/out/production/LetsModReboot/com/fr3gu/letsmodreboot/LetsModReboot.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bin/out/production/LetsModReboot/com/fr3gu/letsmodreboot/block/BlockBomb.class" afterPath="" />
@@ -163,6 +164,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/LetsModReboot.ipr" afterPath="$PROJECT_DIR$/bin/LetsModReboot.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/LetsModReboot.iws" afterPath="$PROJECT_DIR$/bin/LetsModReboot.iws" />
     </list>
+=======
+    <list default="true" id="9f38bffd-9270-4bad-b951-789277b03a54" name="Default" comment="" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="run/logs/" />
@@ -214,6 +218,7 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -224,13 +229,19 @@
       <file leaf-file-name="MessageTileEntityLMRB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityLMRB.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="32">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2431">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ItemWand.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -246,6 +257,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
               <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+=======
+      <file leaf-file-name="ModEntities.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModEntities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
@@ -254,8 +272,13 @@
       <file leaf-file-name="ClientProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="128">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="918">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
@@ -264,8 +287,13 @@
       <file leaf-file-name="LetsModReboot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/LetsModReboot.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="592">
               <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
@@ -274,6 +302,7 @@
       <file leaf-file-name="CommonProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/CommonProxy.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="336">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
@@ -286,6 +315,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
               <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="969">
+              <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
@@ -306,8 +339,13 @@
       <file leaf-file-name="IProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/IProxy.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="96">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1428">
+              <caret line="10" column="104" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="104" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
@@ -316,8 +354,23 @@
       <file leaf-file-name="ServerProxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ServerProxy.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="224">
               <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NBTHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/utility/NBTHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32736155" vertical-offset="2094" max-vertical-offset="4607">
+              <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
               <folding />
             </state>
           </provider>
@@ -338,9 +391,61 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/block/BlockContainerLMRB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/block/BlockInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/handler/GuiHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModTileEntites.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModTileEntities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/utility/NbtHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/utility/NBTHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/utility/ItemHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/handler/ItemEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/contract/IOwnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/IProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/reference/Settings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/handler/PlayerKnowledgeHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/contract/INBTTaggable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/handler/WorldEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/utility/EntityHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/handler/PlayerEventHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/skill/PlayerKnowledge.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ServerProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/handler/CraftingHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/recipe/RecipesVanilla.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/recipe/RecipeRegistry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/Recipies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/LetsModReboot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/models/BlockInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/models/ExtendedBlockInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/block/ExtendedBlockInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/gui/GuiConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemCard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/command/SampleCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/reference/Messages.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/block/BlockBomb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/Recipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityBombHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityBomb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/PacketHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntitySpaceship.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModEntities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityBomb.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/tileentity/TileEntityBomb.java" />
+      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -1005,9 +1110,12 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="tasks" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+=======
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1032,13 +1140,82 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1321,6 +1498,7 @@
     <frame x="-11" y="-11" width="2182" height="1402" extended-state="6" />
     <editor active="false" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21018519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1346,6 +1524,31 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38894096" sideWeight="0.6947917" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32593855" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32239926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39590445" sideWeight="0.5400908" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3220697" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3220697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32239926" sideWeight="0.5104167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38987815" sideWeight="0.70272315" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22525597" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32052484" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32593855" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1410,6 +1613,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/init/ModEntities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1424,11 +1628,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/tileentity/TileEntityBomb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1343">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/block/ExtendedBlockInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1452,6 +1662,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/LetsModReboot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1484,6 +1695,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemDroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1621,6 +1834,20 @@
         <state />
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14055" max-vertical-offset="42375">
+          <caret line="937" column="23" selection-start-line="937" selection-start-column="23" selection-end-line="937" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.2.1230/forgeSrc-1.7.10-10.13.2.1230-sources.jar!/net/minecraft/client/renderer/entity/Render.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5400">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/entity/EntityDroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1640,6 +1867,13 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="1485">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/reference/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1656,15 +1890,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityDummy.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="604" max-vertical-offset="960">
+          <caret line="58" column="73" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/client/render/RenderSpaceship.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="18" column="100" selection-start-line="18" selection-start-column="100" selection-end-line="18" selection-end-column="100" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="345">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
         </state>
       </provider>
     </entry>
@@ -1706,42 +1950,84 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7377049" vertical-offset="5180" max-vertical-offset="7305">
+          <caret line="517" column="0" selection-start-line="517" selection-start-column="0" selection-end-line="517" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/LetsModReboot.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="592">
           <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="2431">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/network/message/MessageTileEntityLMRB.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="32">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
+=======
+        <state vertical-scroll-proportion="0.3327869" vertical-offset="922" max-vertical-offset="4545">
+          <caret line="147" column="23" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/sounds.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="160">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/item/ItemWand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fr3gu/letsmodreboot/utility/NBTHelper.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="64">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+=======
+        <state vertical-scroll-proportion="0.32736155" vertical-offset="2094" max-vertical-offset="4607">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+>>>>>>> 73ad23d7a9af3ddbc220f1ab0b3a1f8f81c33542
           <folding />
         </state>
       </provider>
