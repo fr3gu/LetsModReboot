@@ -5,7 +5,7 @@
 *.pydevproject
 .project
 .metadata
-bin/
+bin
 tmp/
 *.tmp
 *.bak
@@ -13,9 +13,9 @@ tmp/
 *~.nib
 local.properties
 .classpath
-.settings/
+.settings
 .loadpath
-run/
+run
 
 # External tool builders
 .externalToolBuilders/
@@ -215,8 +215,17 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#gradle
+build
+.gradle
+
+# idea
 out
-/.gradle
-/.classpath
-/classpath.vs.build.xml
-/.settings
+*.ipr
+*.iws
+*.iml
+.idea
+
+# other
+eclipse

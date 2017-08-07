@@ -2,52 +2,30 @@ package com.fr3gu.letsmodreboot.block;
 
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.fr3gu.letsmodreboot.tileentity.TileEntityBomb;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.IIcon;
-import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
+import javax.annotation.Nullable;
 import java.util.Random;
 
-public class BlockBomb extends BlockContainerLMRB {
+public class BlockBomb extends BlockContainerBase {
 
     public BlockBomb() {
-        super(Material.iron);
-        this.setBlockName(BlockInfo.BOMB_UNLOCALIZED_NAME);
-        this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+        super(BlockInfo.BOMB_UNLOCALIZED_NAME, Material.IRON);
         this.setHardness(2F);
-        this.setStepSound(Block.soundTypeMetal);
+        this.setSoundType(SoundType.METAL);
     }
-
-    @SideOnly(Side.CLIENT)
-    private IIcon _idleIcon;
 
     @Override
     public TileEntity createNewTileEntity(World world, int meta) {
         return new TileEntityBomb();
     }
 
+    @Nullable
     @Override
-    @SideOnly(Side.CLIENT)
-    public void registerBlockIcons(IIconRegister iconRegister) {
-        blockIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName())));
-        _idleIcon = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName() + BlockInfo.BOMB_IDLE_TEXTURE_SUFFIX)));
-    }
-
-    @Override
-    @SideOnly(Side.CLIENT)
-    public IIcon getIcon(int side, int meta) {
-        return meta == 0 ? blockIcon : _idleIcon;
-    }
-
-    @Override
-    public Item getItemDropped(int meta, Random random, int fortune) {
-        return null;
-    }
+    public Item getItemDropped(IBlockState state, Random rand, int fortune) { return null; }
 }

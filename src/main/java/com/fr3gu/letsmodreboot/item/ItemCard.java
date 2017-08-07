@@ -1,19 +1,20 @@
 package com.fr3gu.letsmodreboot.item;
 
-import com.fr3gu.letsmodreboot.block.BlockMachine;
 import com.fr3gu.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.fr3gu.letsmodreboot.init.ModBlocks;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.util.IIcon;
-import net.minecraft.util.MathHelper;
+import net.minecraft.util.EnumActionResult;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 import java.util.List;
 
@@ -36,7 +37,9 @@ public class ItemCard extends ItemLMRB {
         return super.getUnlocalizedName() + ItemInfo.CARD_NAMES[meta];
     }
 
+    /*
     @Override
+     */
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister iconRegister) {
         int numberOfCards = ItemInfo.CARD_NAMES.length;
@@ -47,6 +50,7 @@ public class ItemCard extends ItemLMRB {
             _icons[i] = iconRegister.registerIcon(String.format("%s", getUnwrappedUnlocalizedName(this.getUnlocalizedName() + ItemInfo.CARD_ICONS[i])));
         }
     }
+    */
 
     @Override
     @SideOnly(Side.CLIENT)
@@ -85,22 +89,24 @@ public class ItemCard extends ItemLMRB {
     }
 
     @Override
-    public boolean onItemUseFirst(ItemStack itemStack, EntityPlayer player, World world, int x, int y, int z, int side, float hitX, float hitY, float hitZ) {
-        if(!world.isRemote && world.getBlock(x, y, z) == ModBlocks.machine) {
-            int meta = world.getBlockMetadata(x, y, z);
+    public EnumActionResult onItemUseFirst(ItemStack itemStack, EntityPlayer player, World world, BlockPos pos, EnumFacing side, float hitX, float hitY, float hitZ, EnumHand hand) {
+        IBlockState blockState = world.getBlockState(new BlockPos(hitX, hitY, hitZ));
+        if(!world.isRemote && blockState.getBlock() == ModBlocks.machine) {
+            //int meta = world.getBlockMetadata(hitX, hitY, hitZ);
+            boolean isDisabled = blockState.withProperty();
 
-            int disabled = meta % 2;
+            //int ISDISABLED = meta % 2;
 
             int type = itemStack.getItemDamage() + 1;
 
             int newMeta = type * 2 + disabled;
 
-            world.setBlockMetadataWithNotify(x, y, z, newMeta, 3);
+            world.setBlockMetadataWithNotify(hitX, hitY, hitZ, newMeta, 3);
 
             itemStack.stackSize--;
 
-            return true;
+            return EnumActionResult.SUCCESS;
         }
-        return false;
+        return EnumActionResult.PASS;
     }
 }

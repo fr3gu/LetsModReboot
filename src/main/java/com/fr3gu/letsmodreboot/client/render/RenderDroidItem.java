@@ -3,8 +3,8 @@ package com.fr3gu.letsmodreboot.client.render;
 import com.fr3gu.letsmodreboot.model.ModelDroid;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.client.IItemRenderer;
 import org.lwjgl.opengl.GL11;
+import net.minecraftforge.client.IItemRenderer;
 
 public class RenderDroidItem implements IItemRenderer {
 
